@@ -1,0 +1,12 @@
+.App {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  /* font-family: 'Open Sans Condensed', sans-serif; */
+  color: #e4e1e8;
+  background: linear-gradient(to bottom right, #f0eaf7, #ddc5f9);
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+}
+

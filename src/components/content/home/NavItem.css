@@ -1,0 +1,15 @@
+.nav-item {
+    padding: 15px;
+    color: #442944;
+    font-weight: 700;
+    font-size: 25px;
+    border: 4px solid #442944;
+    border-radius: 10px;
+    background-color: rgb(68, 41, 68, 0.3);
+    width: 120px;
+    opacity: 1;
+}
+.nav-item:hover {
+    box-shadow: 1px 1px 3px #20073d;
+    color: white;
+}

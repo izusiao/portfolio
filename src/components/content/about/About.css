@@ -1,0 +1,19 @@
+.about {
+    flex: 0 1 80%;
+}
+.about-me {
+    color: #442944;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+}
+.about-me-text {
+    flex: 0 1 60%;
+}
+.my-photo {
+    flex: 0 1 40%;
+    padding-left: 2em;
+}
+.my-photo img {
+    width: 100%;
+}

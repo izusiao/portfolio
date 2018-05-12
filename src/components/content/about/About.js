@@ -1,26 +1,24 @@
 import React from 'react';
 import './About.css';
 import Title from '../Title';
-import myPhoto from '../../img/ozga-izabela.jpg'
+import homeImg from '../../img/home-me.jpg';
 
 const About = () => {
     return(
         <div className="about">
-            <Title title="About me" />
-            <div className="about-me">
-                <div className="about-me-text">
-                    <h1>Izabela Ozga</h1>
-                    <p>Hi, my name is Izabela. I am 29, come from Poland. For three years I have lived in Germany.</p>
-                </div>
-                <div className="my-photo">
-                    <img src={myPhoto} alt="" />
+            <div className="about-intro">
+                <Title title="About me" />
+                <div className="description">
+                    <h3>Hi, my name is Izabela.</h3>
+                    <p>I would like to design and code some pretty and elegant websites.</p>
+                    <p>I would like to be a web developer.</p>
                 </div>
             </div>
-            <Title title="Skills" />
-            <Title title="Hobbys" />
-            <Title title="Contact" />
+            <div className="home-photo">
+                <img src={homeImg} alt="" />
+            </div>
         </div>
-    );
+    )
 }
 
 export default About;

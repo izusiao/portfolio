@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import Title from '../Title';
-import homeImg from '../../img/home-me.jpg';
+import aboutImg from '../../img/about-me.jpg';
 
 const About = () => {
     return(
@@ -14,8 +14,8 @@ const About = () => {
                     <p>I would like to be a web developer.</p>
                 </div>
             </div>
-            <div className="home-photo">
-                <img src={homeImg} alt="" />
+            <div className="about-photo">
+                <img src={aboutImg} alt="" />
             </div>
         </div>
     )

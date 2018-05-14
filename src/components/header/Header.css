@@ -6,13 +6,23 @@
     padding-bottom: 15px;
     background-color: #442944;
     z-index: 900;
+    display: flex;
+    justify-content: flex-end;
 }
 .header-title {
-    text-align: end;
+    flex: 0 1 auto;
+    align-self: flex-end;
     padding-right: 30px;
     font-size: 30px;
     font-weight: 700;
 }
+.header-title a {
+    display: block;
+}
+.header-title a:hover {
+    color: #bc105e;
+}
+
 
 
   

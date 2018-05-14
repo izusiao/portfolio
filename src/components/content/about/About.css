@@ -3,6 +3,9 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    background: url("../../img/home-rose-opacity.jpg");
+    background-size: cover;
+    filter: alpha(opacity=50);
 }
 .about-intro {
     flex: 1;
@@ -12,11 +15,11 @@
     display: flex;
     flex-direction: column;
 }
-.home-photo {
+.about-photo {
     flex: 1;
     align-self: center;
 }
-.home-photo img {
+.about-photo img {
     max-width: 350px;
     border: 4px solid white;
     border-radius: 40px;

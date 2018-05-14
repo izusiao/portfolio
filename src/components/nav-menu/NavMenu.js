@@ -26,9 +26,9 @@ class NavMenu extends Component {
           </div>
           <div id="nav">
             <Link onClick={()=>this.closeMenu()} to="/" id="home" className="menu-item">Home</Link>
-            <Link onClick={()=>this.closeMenu()} to="/experience" id="experience" className="menu-item">Experience & Education</Link>
-            <Link onClick={()=>this.closeMenu()} to="/project" id="project" className="menu-item">Project - Astronomy</Link>
             <Link onClick={()=>this.closeMenu()} to="/about" id="about" className="menu-item">About me</Link>
+            <Link onClick={()=>this.closeMenu()} to="/projects" id="projects" className="menu-item">Projects</Link>
+            <Link onClick={()=>this.closeMenu()} to="/contact" id="contact" className="menu-item">Contact</Link>
           </div>
       </Menu>
     );

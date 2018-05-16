@@ -5,8 +5,3 @@ body, html {
 body > #root > div {
   min-height: 100vh;
 }
-@media all and (max-width:600px) {
-  body, html {
-      min-width: 600px;
-  }
-}

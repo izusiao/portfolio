@@ -5,45 +5,59 @@
     background-color: white;
 }
 .home-intro {
-    flex: 1;
-    align-self: stretch;
     color: #442944;
-    margin: 50px 0px 50px 50px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-}
-.description {
-    flex: 1;
 }
 .description img {
-    max-width: 150px;
+    max-height: 150px;
 }
 .title-h1 h1 {
     margin-top: 0;
 }
 .navigation {
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-content: center;
-    padding: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .home-photo {
     flex: 1;
     align-self: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .home-photo img {
-    max-width: 450px;
+    max-width: 100%;
 }
 @media all and (max-width:850px) {
     .home {
         flex-direction: column;
     }
     .home-intro {
-        margin: 50px 50px 0px 50px;
+        padding: 20px;
     }
     .home-photo {
         padding-bottom: 20px;
+    }
+}
+@media all and (max-width:540px) {
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media all and (max-width:1024px) {
+    .home {
+        flex-direction: column;
+    }
+}
+@media all and (min-width:1200px) {
+    .home-intro {
+        flex: 1;
+        align-self: center;
     }
 }

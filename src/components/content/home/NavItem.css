@@ -4,6 +4,7 @@
     font-weight: 900;
     font-size: 25px;
     width: 140px;
+    height: 40px;
     border-bottom: 3px solid transparent;
 }
 .nav-item:hover {

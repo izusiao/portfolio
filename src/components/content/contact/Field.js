@@ -3,7 +3,7 @@ import './Field.css';
 import propTypes from 'prop-types';
 
 const Field = (props) => {
-    const {textarea, onChange, value, className, label, rows, cols} = props;
+    const {textarea, onChange, value, className, label} = props;
     return (
         <div className="field">
             <input
@@ -12,8 +12,6 @@ const Field = (props) => {
                 value={value}
                 className={className}
                 placeholder={label}
-                rows={rows}
-                cols={cols}
             />
         </div>
     );

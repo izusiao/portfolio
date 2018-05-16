@@ -3,9 +3,6 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    background: url("../../img/home-rose-opacity.jpg");
-    background-size: cover;
-    filter: alpha(opacity=50);
 }
 .about-intro {
     flex: 1;

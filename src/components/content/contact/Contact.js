@@ -35,7 +35,6 @@ class Contact extends Component {
                         className="small" />
                     <Field 
                         textarea={true}
-                        rows={30}
                         onChange={(event) => this.updateField('message', event.target.value)} 
                         value={message}
                         label="Message"

@@ -9,9 +9,7 @@ const About = () => {
             <div className="about-intro">
                 <Title title="About me" />
                 <div className="description">
-                    <h3>Hi, my name is Izabela.</h3>
-                    <p>I would like to design and code some pretty and elegant websites.</p>
-                    <p>I would like to be a web developer.</p>
+                    <p>My name is Izabela. I am 29, come from Poland. In 2013 I graduated from Wroclaw University of Science and Technology with the master's degree in electrical engineering. Since my graduation I work in automation branch. For three years I live in Germany.</p>
                 </div>
             </div>
             <div className="about-photo">

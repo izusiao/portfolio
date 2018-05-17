@@ -6,15 +6,18 @@
     left: 20px;
     top: 20px;
     padding: 3px;
+    transform: scale(0.8)
   }
 
   /* Color/shape of burger icon bars */
-  .bm-burger-bars {
-    background: white;
+  .bm-burger-button .bm-burger-bars {
+    background: #e4e1e8;
+    opacity: 1 !important;
   }
-  .bm-burger-bars:hover {
+  .bm-burger-button:hover .bm-burger-bars {
     background: #bc105e;
   }
+  
   /* General sidebar styles */
   .bm-menu {
     background: #443244;

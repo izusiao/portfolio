@@ -27,11 +27,10 @@
 .home-photo {
     flex: 1;
     align-self: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
 }
 .home-photo img {
-    max-width: 100%;
+    max-width: 600px;
 }
 @media all and (max-width:850px) {
     .home {

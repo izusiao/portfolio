@@ -10,10 +10,9 @@
 a {
     text-decoration: none;
     color: #e4e1e8;
-    opacity: 0.8;
     display: block;
 }
 a:hover {
-    opacity: 1;
     font-weight: 800;
+    color: #bc105e;
 }

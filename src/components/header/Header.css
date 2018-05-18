@@ -18,6 +18,7 @@
 }
 .header-title a {
     display: block;
+    color: #e4e1e8;
 }
 .header-title a:hover {
     color: #bc105e;

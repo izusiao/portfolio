@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Contact.css';
 import Field from './Field';
 import Button from './Button';
+import Textarea from './Textarea';
 
 class Contact extends Component {
     constructor(){
@@ -26,19 +27,15 @@ class Contact extends Component {
                     <Field 
                         onChange={(event) => this.updateField('name', event.target.value)} 
                         value={name}
-                        label="Name" 
-                        className="small"/>
+                        label="Name" />
                     <Field 
                         onChange={(event) => this.updateField('email', event.target.value)} 
                         value={email}
-                        label="Email"
-                        className="small" />
-                    <Field 
-                        textarea={true}
+                        label="Email" />
+                    <Textarea 
                         onChange={(event) => this.updateField('message', event.target.value)} 
                         value={message}
-                        label="Message"
-                        className="big" />
+                        label="Message"/>
                     <Button
                         formValues={this.state}
                         email='ozga.iza@gmail.com'

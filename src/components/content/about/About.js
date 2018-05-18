@@ -3,6 +3,7 @@ import './About.css';
 import AboutMe from './AboutMe';
 import AboutSkills from './AboutSkills';
 import AboutPlaces from './AboutPlaces';
+import AboutHobby from './AboutHobby';
 
 const About = () => {
     return(
@@ -10,6 +11,7 @@ const About = () => {
             <AboutMe />
             <AboutSkills />
             <AboutPlaces />
+            <AboutHobby />
         </div>
     )
 }

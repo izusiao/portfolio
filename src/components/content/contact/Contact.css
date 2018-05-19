@@ -20,10 +20,9 @@
     align-self: center;
     padding: 5px;
     margin-bottom: 10px;
-    border: 2px solid transparent;
+    border-bottom: 3px solid transparent;
     display: block;
 }
 .contact a:hover {
-    border: 2px solid;
-    border-radius: 5px;
+    border-bottom: 3px solid;
 }

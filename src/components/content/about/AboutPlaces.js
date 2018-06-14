@@ -17,8 +17,8 @@ const AboutPlaces = () => {
                 </div>
                 <div className="about-intro" style={{ paddingTop: 0 }}>
                     <div className="about-description">
-                        <p>Wrocław is the one of the most beautiful cities in Poland, my birth place. It lies at the Oder river, is capital of the Lower Silesia and has over 600 000 inhabitants.</p>
-                        <p>Favorite places in Wrocław:</p>
+                        <p><b>Wrocław</b> is the one of the most beautiful cities in Poland, my birth place. It lies at the Oder river, is capital of the Lower Silesia and has over 600 000 inhabitants.</p>
+                        <p><b>Favorite places in Wrocław:</b></p>
                         <ul>
                             <li><a href="https://visitwroclaw.eu/en/place/ostrow-tumski-en" target="blank">Ostrów Tumski</a></li>
                             <li><a href="https://visitwroclaw.eu/en/place/rynek-wroclaw-en" target="blank">Rynek</a></li>
@@ -35,8 +35,8 @@ const AboutPlaces = () => {
             <div className="about-text-photo">
                 <div className="about-intro" style={{ paddingTop: 0 }}>
                     <div className="about-description">
-                        <p>Here is my living place, where the time is going slowly and the views are beatiful... The Rheinland is an area of Western Germany along the Rhein river.</p>
-                        <p>Favorite places:</p>
+                        <p>Here is my living place, where the time is going slowly and the views are beatiful... <b>The Rheinland</b> is an area of Western Germany along the Rhein river.</p>
+                        <p><b>Favorite places:</b></p>
                         <ul>
                             <li><a href="https://www.erpelerley-bergesruh.de/" target="blank">Erpeler Ley</a></li>
                             <li><a href="http://www.unkel-kulturstadt.de/unkel/" target="blank">Unkel</a></li>
@@ -58,8 +58,8 @@ const AboutPlaces = () => {
                 </div>
                 <div className="about-intro" style={{ paddingTop: 0 }}>
                     <div className="about-description">
-                        <p>My first holiday destination in the Athantic Ocean. Fuerteventura is the second largest of the Canary Islands with the capital in Puerto del Rosario.</p>
-                        <p>Favorite places:</p>
+                        <p>My first holiday destination in the Athantic Ocean. <b>Fuerteventura</b> is the second largest of the Canary Islands with the capital in Puerto del Rosario.</p>
+                        <p><b>Favorite places:</b></p>
                         <ul>
                             <li><a href="https://www.hellocanaryislands.com/beaches/fuerteventura/costa-calma-beach/" target="blank">Costa Calma</a></li>
                             <li><a href="https://www.hellocanaryislands.com/beaches/fuerteventura/morro-jable-beach/" target="blank">Moro Jable</a></li>

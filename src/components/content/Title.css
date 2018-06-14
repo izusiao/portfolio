@@ -1,9 +1,8 @@
-.title-h1 h1 {
-    border-bottom: 3px solid;
+.title-h1 {
+    color: #442944;
 }
 @media all and (max-width:850px) {
     .title-h1 h1 {
         margin-top: 0;
-        font-size: 1.3em;
     }
 }

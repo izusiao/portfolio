@@ -1,28 +1,68 @@
 .contact {
     flex: 1;
     display: flex;
+    flex-flow: column;
     justify-content: center;
-    background: url("../../img/home-rose-opacity.jpg") no-repeat center center fixed;
-    background-size: cover;
-    filter: alpha(opacity=50);
+    background-color: white;
 }
-.container {
-    align-self: center;
+.contact-text-photo {
+    flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0px 50px 0px 50px;
+}
+.contact-text-photo .contact-intro {
+    padding: 20px;
+}
+.contact-intro {
+    flex: 1;
+    align-self: stretch;
+    color: #442944;
+    padding: 20px 50px 0 50px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    border: 2px solid #6c6a6d;
-    border-radius: 10px;
-    box-shadow: 3px 3px 5px 2px #6f507f;
+    align-items: center;
 }
-.contact a {
-    flex: 0 1 auto;
-    align-self: center;
-    padding: 5px;
-    margin-bottom: 10px;
-    border-bottom: 3px solid transparent;
-    display: block;
+.contact-title {
+    flex: 0 1 20%;
+    margin-top: 20px;
+    color: #442944 !important;
 }
-.contact a:hover {
-    border-bottom: 3px solid;
+.contact-description {
+    line-height: 1.5em;
+    text-align: justify;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+@media all and (max-width:350px) {
+    .contact-title {
+        flex: 0 1 auto;
+    }
+    .contact-title h1 {
+        margin-bottom: 0;
+    }
+}
+@media all and (max-width:850px) {
+    .contact-intro {
+        padding: 10px 20px 10px 20px !important;
+    }
+    .contact-text-photo {
+        padding: 10px;
+        flex-direction: column !important;
+    }
+    .contact-description {
+        font-size: 20px;
+    }
+}
+@media all and (max-width:1025px) {
+    .contact-text-photo {
+        flex-direction: column !important;
+    }
+}
+@media all and (min-width:1400px) {
+    .contact {
+        max-width: 1400px;
+    }
 }

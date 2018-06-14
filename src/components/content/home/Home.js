@@ -12,7 +12,7 @@ const Home = () => {
     return(
         <div className="home">
             <div className="home-intro">
-                <Title title="Portfolio" />
+                <Title title="Portfolio" className="h1-underline"/>
                 <div className="description">
                     <h3>Hello, my name is Izabela.</h3>
                     <p>My dream is... designing and creating some pretty and elegant websites.</p>

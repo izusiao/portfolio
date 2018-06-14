@@ -9,7 +9,6 @@ const AboutSkills = () => {
                 <i className="fab fa-react fa-7x"></i>
                 <i className="fab fa-html5 fa-7x"></i>
                 <i className="fab fa-css3 fa-7x"></i>
-                <i className="fab fa-git-square fa-7x"></i>
             </div>
         </div>
     )

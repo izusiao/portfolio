@@ -15,8 +15,8 @@ const Home = () => {
                 <Title title="Portfolio" className="h1-underline"/>
                 <div className="description">
                     <h3>Hello, my name is Izabela.</h3>
-                    <p>My dream is... designing and creating some pretty and elegant websites.</p>
-                    <p>My purpose is... to be a <span style={style}>web developer</span>.</p>
+                    <p>My dream is... designing and creating some functional and elegant web applications.</p>
+                    <p>My purpose is... to be a <span style={style}>web developer.</span>.</p>
                     <img src={rose} alt="" />
                 </div>
                 <div className="navigation">
@@ -26,7 +26,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="home-photo">
-                <img src={homeImg} alt="" />
+                <img src={homeImg} alt="" style= {{ maxHeight: "600px"}} />
             </div>
         </div>
     )
